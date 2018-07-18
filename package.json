@@ -1,0 +1,13 @@
+{
+    "name": "kafka-log-reader",
+    "version": "0.0.1",
+    "author": "Christian Froehlingsdorf <chris@5cf.de>",
+    "scripts": {
+        "test": "NODE_ENV=production DEBUG=klr:* node ./test/Local.test.js"
+    },
+    "dependencies": {
+        "bluebird": "^3.5.1",
+        "debug": "^3.1.0",
+        "properties-reader": "^0.0.16"
+    }
+}
